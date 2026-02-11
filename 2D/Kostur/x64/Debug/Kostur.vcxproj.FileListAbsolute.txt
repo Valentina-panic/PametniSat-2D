@@ -1,1 +1,2 @@
 C:\Users\LEGION\Desktop\new\PametniSat-2D\2D\x64\Debug\glew32.dll
+C:\Users\LEGION\Desktop\proba\PametniSat-2D\2D\x64\Debug\glew32.dll
