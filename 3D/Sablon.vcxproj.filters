@@ -20,7 +20,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <None Include="Shaders\phong.frag">
       <Filter>Shader Files</Filter>
     </None>
@@ -75,6 +74,7 @@
     <None Include="Models\hand.obj">
       <Filter>Models</Filter>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Headers\Globals.h">

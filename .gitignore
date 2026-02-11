@@ -1,12 +1,31 @@
+# ===============================
+# Visual Studio
+# ===============================
 .vs/
-x64/
-Debug/
-Release/
-*.ipch
-*.pdb
-*.obj
-*.ilk
-*.log
-*.tlog
-*.idb
 *.vcxproj.user
+*.suo
+
+# ===============================
+# Build output (ali NE packages)
+# ===============================
+**/Debug/**
+**/Release/**
+*.obj
+*.pdb
+*.ilk
+*.tlog
+*.log
+*.exe
+*.idb
+
+# ===============================
+# IntelliSense / cache
+# ===============================
+*.ipch
+*.cache
+
+# ===============================
+# OS junk
+# ===============================
+Thumbs.db
+.DS_Store

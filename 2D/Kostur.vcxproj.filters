@@ -76,7 +76,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <None Include="Shaders\basic.frag">
       <Filter>Shaders</Filter>
     </None>
@@ -95,6 +94,7 @@
     <None Include="Shaders\line.frag">
       <Filter>Shaders</Filter>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resources\cursor.png">
