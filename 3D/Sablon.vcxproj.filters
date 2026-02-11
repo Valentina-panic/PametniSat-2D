@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{65b516c3-21aa-49ca-bc39-f94ed6184b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{a8b5ff39-85c7-4196-b461-819f918ebb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{9bd4af81-1e2e-40bf-8ea1-3a5480fadbb9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Shaders\phong.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\phong.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Models\building.mtl">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\building.obj">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Shaders\gradient.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\gradient.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\line.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\line.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\screen.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\screen.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\model.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\model.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\scene.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\scene.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\basic2d.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Shaders\basic2d.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Models\hand.mtl">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\hand.obj">
+      <Filter>Models</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Battery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\CommonRendering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Ekg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Initialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\model.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\mesh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Battery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CommonRendering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Ekg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Initialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Callbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\9.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\a.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\arrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\b.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\battery.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\border.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\c.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\colon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\cursor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\d.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\e.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\ekg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\f.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\g.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\h.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\i.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\info.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\j.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\k.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\l.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\m.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\n.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\o.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\p.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\percent.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\q.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\r.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\red.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\s.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\t.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\u.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\v.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\w.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\x.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\y.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\z.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\mapa.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\ground.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\road.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

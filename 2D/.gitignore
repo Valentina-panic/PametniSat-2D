@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+
+# Build output
+x64/
+Debug/
+Release/
+*.obj
+*.pdb
+*.ilk
+*.tlog
+*.log
+*.exe
+*.idb
+
+# Cache
+*.cache
