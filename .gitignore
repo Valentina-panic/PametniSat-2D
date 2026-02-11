@@ -8,9 +8,6 @@
 # ===============================
 # Build output (ali NE packages)
 # ===============================
-**/Debug/**
-**/Release/**
-*.obj
 *.pdb
 *.ilk
 *.tlog
